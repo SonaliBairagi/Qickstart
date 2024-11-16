@@ -1,0 +1,20 @@
+Docker
+Open Exam folder
+Q1_Docker -> Open terminal
+   cd Q1_Docker
+create to file 
+1) touch index.html (write anything ) 
+2) touch Dockerfile (add this ) 
+    FROM nginx
+    COPY index.html/usr/share/nginx/html
+On terminal-->
+  sudo docker info
+  sudo service docker start
+
+  sudo docker build -t Q1_Docker. 
+  sudo docker images
+  sudo docker run -d -p 8080:80 Q1_Docker   
+  sudo docker ps
+
+Open Browser 
+0.0.0.0:8080
