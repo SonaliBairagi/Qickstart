@@ -1,13 +1,6 @@
-
-sudo apt update
-sudo apt install maven
-mvn -version
 Step 1 mvn archetype:generate -DgroupId=com.example.demo -DartifactId=DemoProject
 -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
-Step 2 Navigate to the Project Directory
-cd DemoProject
-Step 3
-Tree
+
 Step 4
 Property file in pom.xml
 <properties>
@@ -37,9 +30,14 @@ Add goal file in pom
 </plugin>
 </plugins>
 </build>
-Step 7
-mvn exec:java
-Step 8
-mvn package
-Step 9
-java -jar target/DemoProject-1.0-SNAPSHOT.jar
+
+
+
+
+
+
+
+
+
+
+
